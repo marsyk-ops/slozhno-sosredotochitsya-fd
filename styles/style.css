@@ -234,7 +234,6 @@
   }
 
   .content__section:not(.content__section-images) {
-    /*убрана превязка к чет/нечет*/
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 20px;
@@ -296,7 +295,6 @@
   }
 
   .content__section--grid .content__section-list {
-    /*убрана превязка к чет/нечет*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
