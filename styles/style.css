@@ -60,7 +60,6 @@
 .header {
   padding: var(--page-padding);
   position: relative;
-  min-block-size: 668px;
   block-size: 100vh;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -217,7 +216,7 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  min-block-size: 668px; /*block-size заменен на min-block-size со значением 668 пикс.*/
+  /*block-size убран*/
   align-items: center;
   padding: var(--page-padding);
   text-align: center;
