@@ -60,7 +60,7 @@
 .header {
   padding: var(--page-padding);
   position: relative;
-  min-block-size: min-content;
+  min-block-size: 668px;
   block-size: 100vh;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
