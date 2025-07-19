@@ -22,27 +22,26 @@
   чем стили в медиазапросе предпочтений пользователя
 */
 
- @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
-      --bg-image: url(../images/cover-image-light.png);
-      --main-color: #353430;
-      --color-post-title: var(--main-color);
-      --title-color: #ffc2e6;
-      --accent-color: #ff8dcb;
-      --section-content-color: var(--main-color);
-      --button-color: var(--main-color);
-      --color-decor: var(--main-color);
-      --section-color: var(--main-color);
-      --button-color: var(--main-color);
-      --hover-color: #32312d66;
+    --bg-image: url(../images/cover-image-light.png);
+    --main-color: #353430;
+    --color-post-title: var(--main-color);
+    --title-color: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --section-content-color: var(--main-color);
+    --button-color: var(--main-color);
+    --color-decor: var(--main-color);
+    --section-color: var(--main-color);
+    --button-color: var(--main-color);
+    --hover-color: #32312d66;
   }
   /* Вам также нужно будет написать ряд подобных селекторов */
-  .rec{
+  .rec {
     display: none;
   }
-
 }
 
-.theme-light .rec{
+.theme-light .rec {
   display: none;
 }

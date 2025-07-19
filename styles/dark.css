@@ -11,11 +11,11 @@
   --accent-color: #ff0070;
   --section-content-color: #f1b2ce;
   --hover-color: #ff007066;
-  --color-bg-post-title:var(--accent-color);
-  --section-color:var(--accent-color);
-  --color-decor:var(--accent-color);
-  --color-shadow:var(--accent-color);
-  --button-color:var(--accent-color);
+  --color-bg-post-title: var(--accent-color);
+  --section-color: var(--accent-color);
+  --color-decor: var(--accent-color);
+  --color-shadow: var(--accent-color);
+  --button-color: var(--accent-color);
 }
 /* сохраните этот селектор в приведённом виде.
   Так стили написанные ниже будут иметь больший вес,
@@ -24,21 +24,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-      --color-bg-post-title:var(--accent-color);
-      --section-color:var(--accent-color);
-      --color-decor:var(--accent-color);
-      --color-shadow:var(--accent-color);
-      --button-color:var(--accent-color);
-      --bg-image: url(../images/cover-image-dark.png);
-      --title-color: #db00ff;
-      --color-post-title: #000028;
-      --accent-color: #ff0070;
-      --section-content-color: #f1b2ce;
-      --hover-color: #ff007066;
-      /* Вам также нужно будет написать ряд подобных селекторов */
+    --color-bg-post-title: var(--accent-color);
+    --section-color: var(--accent-color);
+    --color-decor: var(--accent-color);
+    --color-shadow: var(--accent-color);
+    --button-color: var(--accent-color);
+    --bg-image: url(../images/cover-image-dark.png);
+    --title-color: #db00ff;
+    --color-post-title: #000028;
+    --accent-color: #ff0070;
+    --section-content-color: #f1b2ce;
+    --hover-color: #ff007066;
+    /* Вам также нужно будет написать ряд подобных селекторов */
   }
 }
 
-.theme-dark .rec{
+.theme-dark .rec {
   display: block;
 }

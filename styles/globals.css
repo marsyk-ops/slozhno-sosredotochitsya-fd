@@ -40,7 +40,6 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
-:focus{
-  
+:focus {
   outline: none;
 }
