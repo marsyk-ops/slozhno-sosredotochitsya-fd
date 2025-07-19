@@ -4,29 +4,37 @@
 */
 
 :root {
-  --page-padding: 10px;
-  --content-margin-block: 40px;
-  --content__section-margin: 50px;
-  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --title-line-height: clamp(5.98125rem, 5.7844rem + 0.8397vw, 6.1875rem);
-  --main-font-size: 1.125rem;
-  --main-line-height: 23.4px;
-  --main-font: "IBM Plex mono"; /* убран content__section-title-color для читабельности кода*/
+  /*стили адаптированы под пересобраный код*/
   --bg-image: url(../images/cover-image-dark.png);
-  --accent-color: rgb(255 0 112);
-  --hover-border-color: rgb(255 0 112 / 0.4);
+  --color-post-title: #000028;
+  --accent-color: #ff0070;
+  --color-bg-post-title: var(--accent-color);
+  --section-color: var(--accent-color);
+  --color-decor: var(--accent-color);
+  --color-shadow: var(--accent-color);
+  --button-color: var(--accent-color);
+  --font: "IBM Plex Mono";
   --title-color: #db00ff;
-  --main-font-color: #f1b2ce;
-  --decor-color: rgb(255 0 112);
-  --button-color: rgb(255 0 112);
+  --font-title: var(--font-fat);
+  --font-fat: 700;
+  --font-content: var(--font-not-fat);
+  --font-not-fat: 400;
+  --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-size: 18px;
+  --font-line-height-title: 95.7px;
+  --decor-size: 25px;
+  --hover-color: #ff007066;
+  --focus-color: var(--section-content-color);
+  --page-gap: 40px;
 }
 
-@media (min-width: 768px) {
+@media (width >= 768px) {
   :root {
-    --page-padding: 20px;
-    --content-margin-block: 60px;
-    --content__section-margin: 80px;
-    --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --title-line-height: clamp(6.1875rem, 0.4631rem + 11.9258vw, 8.095625rem);
+    --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
+@media (width >= 1024px) {
+  :root {
+    --font-line-height-title: 129.53px;
   }
 }
