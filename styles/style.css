@@ -217,25 +217,34 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  min-block-size: 668px;
   block-size: 100vh;
+  min-block-size: 668px;/*block-size заменен на min-block-size со значением 668 пикс.*/
   align-items: center;
   padding: var(--page-padding);
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  .content__section--alt {
+  .header {
+    padding-left: 0;
+  }
+
+  .header__text {
+    width: calc((100% - var(--page-padding)) / 2);
+    justify-self: end;
+  }
+
+  .content__section-concentrate-how:not(.content__section-images) {
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 20px;
   }
 
-  .content__section--alt .content__section-title {
+  .content__section-title {
     width: 236px;
   }
 
-  .content__section--alt .content__section-list {
+  .content__section-list {
     grid-column: 2;
   }
 
@@ -286,7 +295,7 @@
     width: 315px;
   }
 
-  .content__section--grid .content__section-list {
+  .content__section-concentrate-down .content__section-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
