@@ -234,10 +234,18 @@
     justify-self: end;
   }
 
+  .content__section-concentrate-why {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
   .content__section-concentrate-how:not(.content__section-images) {
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 20px;
+    margin-bottom: 40px;
   }
 
   .content__section-title {
@@ -299,5 +307,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    padding-bottom: 20px;
   }
 }
