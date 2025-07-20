@@ -241,7 +241,7 @@
     margin-bottom: 80px;
   }
 
-  .content__section-concentrate-how:not(.content__section-images) {
+  .content__section-concentrate-how {
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 20px;
@@ -303,7 +303,7 @@
     width: 315px;
   }
 
-  .content__section-concentrate-down .content__section-list {
+  .content__section-concentrate-down {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
