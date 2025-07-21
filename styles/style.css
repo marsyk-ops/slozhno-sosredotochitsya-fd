@@ -229,7 +229,6 @@
   .content__section-concentrate-why .content__section-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     margin-bottom: 50px;
     width: auto;
   }
@@ -335,8 +334,8 @@
   .content__section-concentrate-why {
     display: grid;
     grid-template-columns: min-content 1fr;
-    gap: 15px;
-    margin-bottom: 30px;
+    gap: 10px;
+    margin-bottom: 20px;
   }
 
   .content__section-concentrate-down .content__section-list {
