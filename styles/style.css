@@ -265,7 +265,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
   }
 
   .content__section-concentrate-how {
@@ -277,6 +277,7 @@
 
   .content__section-title {
     width: 236px;
+    margin-block-end: 10px;
   }
 
   .content__section-list {
@@ -328,7 +329,7 @@
 
   .content__section-title {
     width: 315px;
-    margin-block-end: 20px;
+    margin-block-end: 10px;
   }
 
   .content__section-concentrate-why {
@@ -342,6 +343,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
   }
 }
