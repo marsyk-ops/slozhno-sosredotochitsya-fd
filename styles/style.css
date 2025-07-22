@@ -141,7 +141,7 @@
 
 .content__section-title {
   color: var(--content__section-title-color, rgb(255 0 112));
-  margin-block-end: 10px;
+  margin-block-end: 20px;
   font-size: var(--main-font-size, 1.125rem);
   line-height: var(--main-line-height);
 }
@@ -328,6 +328,7 @@
 
   .content__section-title {
     width: 315px;
+    margin-block-end: 20px;
   }
 
   .content__section-concentrate-why {
